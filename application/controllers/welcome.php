@@ -6,7 +6,7 @@ class Welcome extends Frontend_Controller {
 	{
 		var_dump($this->data);
 		
-		$this->load->view('welcome_message');
+		$this->load->view('new_welcome_message');
 	}
 }
 
